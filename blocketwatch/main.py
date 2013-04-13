@@ -1,9 +1,10 @@
 #!/usr/bin/python
 
 import yaml
+import os
 from blocketwatch import blocket
 
-config_file = 'config.yaml'
+config_file = os.path.expanduser('~/.blocketwatch.yaml')
 base_url = 'http://www.blocket.se/goteborg?q={0}&cg=0&w={2}&st=s&ca={1}&is=1&l=0&md=th'
 
 def main():
