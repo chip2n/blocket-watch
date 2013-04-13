@@ -1,0 +1,3 @@
+api-keys: [xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx]
+searches:
+- {breadth: 3, category: 15, latest-item: item_46237244, query: ITEM_NAME}
